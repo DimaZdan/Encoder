@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="520.0" prefWidth="858.0" GridPane.columnIndex="1">
+         <children>
+            <ImageView fitHeight="816.0" fitWidth="1575.0" layoutX="-24.0" layoutY="-124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Background.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="Fbtn" layoutX="690.0" layoutY="394.0" mnemonicParsing="false" onAction="#presF" opacity="0.0" prefHeight="31.0" prefWidth="22.0" text="F" />
+            <Button fx:id="Kbtn" layoutX="855.0" layoutY="393.0" mnemonicParsing="false" onAction="#presK" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="K" />
+            <Button fx:id="Hbtn" layoutX="776.0" layoutY="394.0" mnemonicParsing="false" onAction="#presH" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="H" />
+            <Button fx:id="Sbtn" layoutX="605.0" layoutY="393.0" mnemonicParsing="false" onAction="#presS" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="S" />
+            <Button fx:id="Obtn" layoutX="849.0" layoutY="348.0" mnemonicParsing="false" onAction="#presO" opacity="0.0" prefHeight="25.0" prefWidth="28.0" text="O" />
+            <Button fx:id="Tbtn" layoutX="700.0" layoutY="349.0" mnemonicParsing="false" onAction="#presT" opacity="0.0" text="T" />
+            <Button fx:id="Ubtn" layoutX="777.0" layoutY="348.0" mnemonicParsing="false" onAction="#presU" opacity="0.0" text="U" />
+            <Button fx:id="Vbtn" layoutX="677.0" layoutY="446.0" mnemonicParsing="false" onAction="#presV" opacity="0.0" prefHeight="34.0" prefWidth="36.0" text="V" />
+            <Button fx:id="Bbtn" layoutX="727.0" layoutY="445.0" mnemonicParsing="false" onAction="#presB" opacity="0.0" prefHeight="34.0" prefWidth="28.0" text="B" />
+            <Button fx:id="Ibtn" layoutX="814.0" layoutY="349.0" mnemonicParsing="false" onAction="#presI" opacity="0.0" text="I" />
+            <Button fx:id="Ybtn" layoutX="548.0" layoutY="445.0" mnemonicParsing="false" onAction="#presY" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="Y" />
+            <Button fx:id="Qbtn" layoutX="528.0" layoutY="348.0" mnemonicParsing="false" onAction="#presQ" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="Q" />
+            <Button fx:id="Ebtn" layoutX="621.0" layoutY="348.0" mnemonicParsing="false" onAction="#presE" opacity="0.0" text="E" />
+            <Button fx:id="Nbtn" layoutX="773.0" layoutY="443.0" mnemonicParsing="false" onAction="#presN" opacity="0.0" prefHeight="43.0" prefWidth="27.0" text="N" />
+            <Button fx:id="Gbtn" layoutX="729.0" layoutY="393.0" mnemonicParsing="false" onAction="#presG" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="G" />
+            <Button fx:id="Jbtn" layoutX="818.0" layoutY="393.0" mnemonicParsing="false" onAction="#presJ" opacity="0.0" prefHeight="31.0" prefWidth="27.0" text="J" />
+            <Button fx:id="Dbtn" layoutX="644.0" layoutY="393.0" mnemonicParsing="false" onAction="#presD" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="D" />
+            <Button fx:id="Wbtn" layoutX="572.0" layoutY="343.0" mnemonicParsing="false" onAction="#presW" opacity="0.0" prefHeight="31.0" prefWidth="36.0" text="W" />
+            <Button fx:id="Rbtn" layoutX="664.0" layoutY="349.0" mnemonicParsing="false" onAction="#presR" opacity="0.0" text="R" />
+            <Button fx:id="Xbtn" layoutX="586.0" layoutY="446.0" mnemonicParsing="false" onAction="#presX" opacity="0.0" prefHeight="31.0" prefWidth="36.0" text="X" />
+            <Button fx:id="Lbtn" layoutX="871.0" layoutY="447.0" mnemonicParsing="false" onAction="#presL" opacity="0.0" prefHeight="34.0" prefWidth="28.0" text="L" />
+            <Button fx:id="Cbtn" layoutX="633.0" layoutY="447.0" mnemonicParsing="false" onAction="#presC" opacity="0.0" prefHeight="34.0" prefWidth="36.0" text="C" />
+            <Button fx:id="Mbtn" layoutX="820.0" layoutY="443.0" mnemonicParsing="false" onAction="#presM" opacity="0.0" prefHeight="43.0" prefWidth="36.0" text="M" />
+            <Button fx:id="Zbtn" layoutX="738.0" layoutY="348.0" mnemonicParsing="false" onAction="#presZ" opacity="0.0" text="Z" />
+            <Button fx:id="Pbtn" layoutX="506.0" layoutY="446.0" mnemonicParsing="false" onAction="#presP" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="P" />
+            <Button fx:id="Abtn" layoutX="561.0" layoutY="393.0" mnemonicParsing="false" onAction="#presA" opacity="0.0" prefHeight="31.0" prefWidth="28.0" text="A" />
+            <Spinner fx:id="rotorType1" amountToStepBy="1" initialValue="1" layoutX="842.0" layoutY="186.0" max="5" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Spinner fx:id="rotorType2" amountToStepBy="1" initialValue="2" layoutX="718.0" layoutY="164.0" max="5" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Spinner fx:id="rotorType3" amountToStepBy="1" initialValue="3" layoutX="592.0" layoutY="186.0" max="5" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Label layoutX="803.0" layoutY="253.0" text="Ротор 1" />
+            <Label layoutX="682.0" layoutY="252.0" text="Ротор 2" />
+            <Label layoutX="555.0" layoutY="252.0" text="Ротор 3" />
+            <Spinner fx:id="RotPos1" amountToStepBy="1" initialValue="1" layoutX="784.0" layoutY="186.0" max="26" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Spinner fx:id="RotPos2" amountToStepBy="1" initialValue="1" layoutX="662.0" layoutY="164.0" max="26" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Spinner id="RP3" fx:id="RotPos3" amountToStepBy="1" initialValue="1" layoutX="536.0" layoutY="186.0" max="26" min="1" prefHeight="43.0" prefWidth="24.0" />
+            <Spinner fx:id="reflector" amountToStepBy="1" initialValue="1" layoutX="487.0" layoutY="396.0" max="2" min="1" prefHeight="25.0" prefWidth="60.0" />
+            <Label layoutX="201.0" layoutY="417.0" text="Рефлектор" />
+            <Label fx:id="output" layoutX="519.0" layoutY="301.0" prefHeight="17.0" prefWidth="293.0" text="Output" />
+            <Label fx:id="input" layoutX="308.0" layoutY="309.0" opacity="0.0" prefHeight="17.0" prefWidth="293.0" text="Input" />
+            <Button layoutX="914.0" layoutY="399.0" mnemonicParsing="false" onAction="#clearall" opacity="0.0" text="Очистить" />
+            <Button layoutX="914.0" layoutY="448.0" mnemonicParsing="false" onAction="#VRUMVRUM" opacity="0.0" prefHeight="25.0" prefWidth="68.0" text="Преобразование" />
+            <MenuBar layoutX="195.0" layoutY="5.0" prefHeight="25.0" prefWidth="1041.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem fx:id="OpenFileMode" mnemonicParsing="false" onAction="#OpeningFile" text="Open File" />
+                        <MenuItem fx:id="savingFile" mnemonicParsing="false" onAction="#SavingFile" text="Save" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <ToggleButton layoutX="886.0" layoutY="195.0" mnemonicParsing="false" onAction="#toggle" text="Строки" />
+            <Button layoutX="554.0" layoutY="552.0" mnemonicParsing="false" onAction="#cWindow" opacity="0.0" prefHeight="25.0" prefWidth="293.0" text="Камутатор" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
